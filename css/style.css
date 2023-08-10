@@ -72,7 +72,9 @@ html {
 body {
 	/* height: 100%; */					/* Commented, because it conflict with overflow-x: hidden - appear second scrollbar while tooltip is display in the Booked plugin */
 }
-
+#menu-main-menu li a span{
+	color: #fff;
+}
 
 
 /* 2. Default tag's settings
