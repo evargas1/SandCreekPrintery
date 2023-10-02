@@ -4586,9 +4586,7 @@ body.custom-background {
 }
 
 .copypress-custom-bg-3 {
-	background-image: url(http://placehold.it/1920x689.jpg);
-	background-position: center center;
-	background-size: cover;
+	background-color: rgb(237, 228, 228);
 }
 
 .copypress-custom-bg-4 {
