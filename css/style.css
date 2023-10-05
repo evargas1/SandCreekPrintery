@@ -4602,7 +4602,7 @@ body.custom-background {
 }
 
 .copypress-custom-bg-6 {
-	background-color: #f4f6f9 !important;
+	background-color: #fff !important;
 }
 
 .copypress-custom-bg-7 {
@@ -4662,6 +4662,10 @@ body.custom-background {
 	background-image:url(http://placehold.it/740x416.jpg);
 }
 
+.copypress-services-custom-block {
+	padding: 0% 17% 7.5% 17%;
+	margin: 0 auto;
+}
 
 .copypress-services-custom-block-1 {
 	padding: 12% 17% 7.5% 17%;

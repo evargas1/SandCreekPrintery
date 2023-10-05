@@ -610,6 +610,16 @@ aside.widget_bg_image .widget_title, aside.widget_bg_image a, aside.widget_bg_im
     width: 100%}
 .trx_addons_column-1_2, .trx_addons_column-2_4, .trx_addons_column-3_6, .trx_addons_column-4_8, .trx_addons_column-5_10, .trx_addons_column-6_12 {
     width: 50%}
+
+
+    /* add ons for we also do section ccode */
+.elements-4{
+    margin-right: 1.5rem;
+    background-color: blue;
+    border-radius: 10%;
+    box-shadow: 3px 5px rgba(128, 128, 128, 0.296);
+}
+
 .trx_addons_column-1_3, .trx_addons_column-2_6, .trx_addons_column-3_9, .trx_addons_column-4_12 {
     width: 33.33333333%}
 .trx_addons_column-2_3, .trx_addons_column-4_6, .trx_addons_column-8_12 {
@@ -3205,6 +3215,11 @@ ul.trx_addons_list_parameters>li + li {
 .sc_services_list .sc_services_item.sc_services_item_featured_top {
     text-align: center;
     padding: 2em 1.9em 1.5em;
+}
+/* We work with 4 boxes - difference they are larger */
+.sc_services_list-large .sc_services_item.sc_services_item_featured_top-large {
+    text-align: center;
+    padding: 3em 1.9em 1.5em 1.9em;
 }
 .sc_services_list.slider_swiper .sc_services_item, .sc_services_list .columns_padding_bottom .sc_services_item {
     margin-bottom: 0;

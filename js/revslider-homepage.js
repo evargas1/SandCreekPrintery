@@ -38,6 +38,7 @@ var setREVStartSize = function() {
         e.c = jQuery('#rev_slider_1_1');
         e.responsiveLevels = [1240, 1024, 778, 480];
         e.gridwidth = [1170, 1024, 778, 480];
+        // e.gridheight = [500, 500, 500, 600];
         e.gridheight = [700, 700, 700, 800];
 
         e.sliderLayout = "auto";

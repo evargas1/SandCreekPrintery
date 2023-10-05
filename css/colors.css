@@ -262,7 +262,7 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     color: #47d6e8;
 }
 .scheme_default .sc_layouts_row_delimiter, .scheme_default.sc_layouts_row_delimiter {
-    border-color: #ebeef1; background-color: #0e0e12;
+    border-color: #000000; background-color: #0e0e12;
 }
 .scheme_default .sc_layouts_item_icon {
     color: #7f818d;
