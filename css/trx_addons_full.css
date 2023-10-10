@@ -615,7 +615,7 @@ aside.widget_bg_image .widget_title, aside.widget_bg_image a, aside.widget_bg_im
     /* add ons for we also do section ccode */
 .elements-4{
     margin-right: 1.5rem;
-    background-color: blue;
+    background-color: rgb(146, 190, 221);
     border-radius: 10%;
     box-shadow: 3px 5px rgba(128, 128, 128, 0.296);
 }
@@ -3216,11 +3216,54 @@ ul.trx_addons_list_parameters>li + li {
     text-align: center;
     padding: 2em 1.9em 1.5em;
 }
-/* We work with 4 boxes - difference they are larger */
-.sc_services_list-large .sc_services_item.sc_services_item_featured_top-large {
+/* this class is only for the "we work with a variety of industries" section - boxes are larger and closer together */
+.sc_services_item_featured_top-large{
     text-align: center;
-    padding: 3em 1.9em 1.5em 1.9em;
+    align-items: center;
+    padding: 2em 1.5em 1.5em 1.5em;
 }
+.elements-4-large{
+    background-color: rgb(20, 44, 32);
+}
+.sc_services_list .sc_services_item_icon-large {
+    display: inline-block;
+    text-align: center;
+    font-size: 6em;
+    width: 1.5em;
+    height: 1.2em;
+    line-height: 1em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%; 
+    padding: 0 0 .2em 0;
+    color: black;
+}
+.sc_services_list .sc_services_item_icon-large.sc_icon_type_svg svg {
+    width: 1em;
+    height: 1em;
+}
+#industry-1{
+    background-color: #E8D1AE;
+}
+#industry-2{
+    background-color: #DBBF94;
+}
+#industry-3{
+    background-color: #CDAD7D;
+}
+#industry-4{
+    background-color: #BF9F6E;
+}
+
+
+
+
+
+
+
+
+
 .sc_services_list.slider_swiper .sc_services_item, .sc_services_list .columns_padding_bottom .sc_services_item {
     margin-bottom: 0;
 }
