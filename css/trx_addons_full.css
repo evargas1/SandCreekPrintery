@@ -4060,6 +4060,7 @@ ul.trx_addons_list_parameters>li + li {
 }
 .sc_testimonials_title.sc_align_left {
     text-align: left;
+    color: #fff;
 }
 .sc_testimonials_item_content {
     text-align: center;

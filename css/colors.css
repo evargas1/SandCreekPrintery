@@ -250,7 +250,7 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     background-color: #ffffff;
 }
 .scheme_default #page_preloader, .scheme_default.header_position_under .page_content_wrap, .scheme_default .page_wrap {
-    background-color: #ffffff;
+    background-color: black;
 }
 .scheme_default .preloader_wrap>div {
     background-color: #47d6e8;
@@ -268,7 +268,7 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     color: #7f818d;
 }
 .scheme_default .sc_layouts_item_details_line1 {
-    color: #47d6e8;
+    color: #dac18c;
 }
 .scheme_default .sc_layouts_item_details_line2 {
     color: #0e0e12;
@@ -1059,13 +1059,13 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     background-position: right bottom !important;
 }
 .scheme_default .sc_button_yellow.sc_button_hover_slide_left {
-    background: linear-gradient(to right, 	#0e0e12 50%, #fcd63c 50%) no-repeat scroll right bottom / 210% 100% #fcd63c !important;
+    background: linear-gradient(to right, 	#0e0e12 50%, #000000 50%) no-repeat scroll right bottom / 210% 100% #000000 !important;
 }
 .scheme_default .sc_button_pink.sc_button_hover_slide_left {
     background: linear-gradient(to right, 	#0e0e12 50%, #E8D1AE 50%) no-repeat scroll right bottom / 210% 100% #E8D1AE !important;
 }
 .scheme_default .comments_wrap .form-submit input[type="submit"], .scheme_default .sc_button_dark.sc_button_hover_slide_left {
-    background: linear-gradient(to right, 	#fcd63c 50%, #23242c 50%) no-repeat scroll right bottom / 210% 100% #23242c !important;
+    background: linear-gradient(to right, 	#000000 50%, #23242c 50%) no-repeat scroll right bottom / 210% 100% #23242c !important;
 }
 .scheme_default .sc_button_light.sc_button_hover_slide_left {
     color: #7f818d !important;
@@ -1082,10 +1082,10 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     background: #fcd63c !important;
 }
 .scheme_default .sc_button_pink {
-    background: #E8D1AE !important;
+    background: #8CC083 !important;
 }
 .scheme_default .sc_button_dark {
-    background: #23242c !important;
+    background: #8CC083 !important;
 }
 .scheme_default .sc_button_light {
     color: #7f818d !important;
@@ -1114,10 +1114,10 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     border-color: #0e0e12 !important;
 }
 .scheme_default .sc_button_dark:before {
-    background: #fcd63c !important;
+    background: #040300 !important;
 }
 .scheme_default .sc_button_dark:after {
-    border-color: #fcd63c !important;
+    border-color: #000000 !important;
 }
 .scheme_default .sc_button_light:before {
     background: #47d6e8 !important;
@@ -2060,13 +2060,13 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     color: #23242c;
 }
 .scheme_default .sc_testimonials_item_content {
-    color: #0e0e12;
+    color: #fff;
 }
 .scheme_default .sc_testimonials_item_content:before {
-    color: #47d6e8;
+    color: #E8D1AE;
 }
 .scheme_default .sc_testimonials_item_author_title {
-    color: #0e0e12;
+    color: #FFF;
 }
 .scheme_default .sc_testimonials_item_author_subtitle {
     color: #7f818d;

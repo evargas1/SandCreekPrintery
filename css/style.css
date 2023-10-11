@@ -4574,13 +4574,13 @@ body.custom-background {
 }
 
 .copypress-custom-bg-1{
-	background-image: url(http://placehold.it/1920x1192.jpg);
+	background-color: #F4F1EC;
 	background-position: center center;
 	background-size: cover;
 }
 
 .copypress-custom-bg-2{
-	background-image: url(http://placehold.it/1920x877.jpg);
+	background-color: #fff;
 	background-position: center center;
 	background-size: cover;
 }
@@ -4595,11 +4595,30 @@ body.custom-background {
 	background-size: cover;
 }
 
-.copypress-custom-bg-5 {
-	background-image: url(http://placehold.it/1920x604.jpg);
+
+/* adjsuted color and image for testomincals sections */
+.copypress-custom-bg-5-test{
+	background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(8, 0, 0, 0.65), 
+      rgba(2, 0, 0, 0.65)
+    ),
+    /* bottom, image */
+    url(/images/unboxing.jpg);
+
+
 	background-position: center center;
 	background-size: cover;
 }
+.copypress-custom-bg-5:before {
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	background: rgba(0,0,0,.9);
+  }
+
 
 .copypress-custom-bg-6 {
 	background-color: #fff !important;
