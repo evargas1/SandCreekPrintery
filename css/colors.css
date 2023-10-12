@@ -1950,10 +1950,10 @@ em, i, .post-date, .rss-date .post_date, .post_meta_item, .post_counters_item, .
     color: #23242c;
 }
 .scheme_default .sc_services_hover .sc_services_item.with_image .sc_services_item_content:before {
-    background: linear-gradient(to right, #E8D1AE 0%, rgba(78, 188, 132, 0.1) 100%);
+    background: linear-gradient(to right, #E8D1AE 0%, rgb(207, 205, 169, 0.1) 100%);
 }
 .scheme_default .sc_services_hover .sc_services_item.with_image .sc_services_item_content:after {
-    background: linear-gradient(to right, #E8D1AE 0%, rgba(78, 188, 132 , 0.8) 100%);
+    background: linear-gradient(to right, #E8D1AE 0%, rgb(207, 205, 169, 0.8) 100%);
 }
 .scheme_default .sc_services_hover .sc_services_item_link a.sc_button_white.sc_button_hover_slide_left {
     color: #E8D1AE !important;
