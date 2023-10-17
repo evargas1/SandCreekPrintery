@@ -72,6 +72,30 @@
     margin-bottom: 2rem;
 }
 
+/* footer section */
+.footer-contact span{
+   display: inline-block;
+}
+.footer-contact p{
+    display: inline-block;
+}
+.icon_address:before{
+    content: '\e8fd';
+    font-family: 'fontello';
+    width: 4em;
+}
+.icon_phone:before{
+    content: '\e8f5';
+    font-family: 'fontello';
+}
+.icon_email:before{
+    content: '\e8fa';
+    font-family: 'fontello';
+}
+.footer_wrap h3{
+    font-family: Gilroy, sans-serif;
+    text-transform: uppercase;
+}
 
 [class*="sc_button_hover_slide"] {
     -webkit-transition: all ease .3s;
