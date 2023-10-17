@@ -95,6 +95,7 @@
 .footer_wrap h3{
     font-family: Gilroy, sans-serif;
     text-transform: uppercase;
+    font-size: 1.6rem;
 }
 
 [class*="sc_button_hover_slide"] {
