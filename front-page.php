@@ -34,6 +34,7 @@
         <link rel="icon" href="http://placehold.it/32x32.jpg" sizes="32x32" />
         <link rel="icon" href="http://placehold.it/192x192.jpg" sizes="192x192" />
         <link rel="apple-touch-icon-precomposed" href="http://placehold.it/180x180.jpg" />
+        <?php wp_head(); ?>
 
     </head>
 
