@@ -30,9 +30,15 @@ function theme_styles () {
     wp_enqueue_style('responsive', get_template_directory_uri() . '/css/responsive.css' );
     wp_enqueue_style('revslider', get_template_directory_uri() . '/css/revslider.css' );
     wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css' );
-    wp_enqueue_style('trx-addons_full', get_template_directory_uri() . '/css/trx-addons_full.css' );
+    wp_enqueue_style('trx_addons_full', get_template_directory_uri() . '/css/trx_addons_full.css' );
     wp_enqueue_style('trx-addons', get_template_directory_uri() . '/css/trx-addons.animation.css' );
-    
+
+    // js
+    wp_enqueue_style('settings', get_template_directory_uri() . '/js/vendor/essential-grid/css/settings.css' );
+    wp_enqueue_style('settings', get_template_directory_uri() . '/js/vendor/revslider/css/settings.css' );
+    wp_enqueue_style('swiper', get_template_directory_uri() . '/js/vendor/swiper/swiper.min.css' );
+    wp_enqueue_style('magnific-popup', get_template_directory_uri() . '/js/vendor/magnific/magnific-popup.min.css' );
+
 
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
