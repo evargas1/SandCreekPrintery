@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="format-detection" content="telephone=no">
 
-        <link rel="stylesheet" href="js/vendor/essential-grid/css/settings.css" type="text/css" media="all" />
+        <!-- <link rel="stylesheet" href="js/vendor/essential-grid/css/settings.css" type="text/css" media="all" />
         <link rel="stylesheet" href="css/essential-grid.css" type="text/css" media="all" />
 
         <link rel="stylesheet" href="js/vendor/revslider/css/settings.css" type="text/css" media="all" />
@@ -33,7 +33,7 @@
 
         <link rel="icon" href="http://placehold.it/32x32.jpg" sizes="32x32" />
         <link rel="icon" href="http://placehold.it/192x192.jpg" sizes="192x192" />
-        <link rel="apple-touch-icon-precomposed" href="http://placehold.it/180x180.jpg" />
+        <link rel="apple-touch-icon-precomposed" href="http://placehold.it/180x180.jpg" /> -->
         <?php wp_head(); ?>
 
     </head>

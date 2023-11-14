@@ -5,12 +5,12 @@ function theme_styles () {
     wp_enqueue_style('font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
 
     // font icons css
-    wp_enqueue_style('font-icons', get_template_directory_uri() . '/css/font-icons/css/animation.css' );
-    wp_enqueue_style('font-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-codes.css' );
-    wp_enqueue_style('font-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-embedded.css');
-    wp_enqueue_style('font-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7-codes,css' );
-    wp_enqueue_style('font-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7.css' );
-    wp_enqueue_style('font-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons.css' );
+    wp_enqueue_style('animation', get_template_directory_uri() . '/css/font-icons/css/animation.css' );
+    wp_enqueue_style('trx_addons_icons-codes', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-codes.css' );
+    wp_enqueue_style('trx_addons_icons-embedded', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-embedded.css');
+    wp_enqueue_style('trx_addons_icons-ie7-codes', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7-codes.css' );
+    wp_enqueue_style('trx_addons_icons-ie7.css', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7.css' );
+    wp_enqueue_style('trx_addons_icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons.css' );
 
 
     // fontello css
@@ -24,7 +24,7 @@ function theme_styles () {
     
 
     // main files
-    wp_enqueue_style('colors', get_template_directory_uri() . '/css/colors.css' );
+    wp_enqueue_style('colors', get_template_directory_uri() . '/css/colors.css');
     wp_enqueue_style('essential-grid', get_template_directory_uri() . '/css/essential-grid.css' );
     wp_enqueue_style('general', get_template_directory_uri() . '/css/general.css' );
     wp_enqueue_style('responsive', get_template_directory_uri() . '/css/responsive.css' );
@@ -42,4 +42,5 @@ function theme_styles () {
 
 }
 add_action( 'wp_enqueue_scripts', 'theme_styles' );
+add_action('admin_enqueue_scripts', 'theme_styles');
 ?>
