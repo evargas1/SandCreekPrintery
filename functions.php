@@ -8,7 +8,7 @@ function theme_styles () {
     // font icons css
     wp_enqueue_style('animation', get_template_directory_uri() . '/css/font-icons/css/animation.css' );
     wp_enqueue_style('trx-addons-icons-codes', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-codes.css' );
-    wp_enqueue_style('trx_addons-icons-embedded', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-embedded.css');
+    wp_enqueue_style('trx-addons-icons-embedded', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-embedded.css');
     wp_enqueue_style('trx-addons-icons-ie7-codes', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7-codes.css' );
     wp_enqueue_style('trx-addons-icons-ie7.css', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7.css' );
     wp_enqueue_style('trx-addons-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons.css' );
@@ -26,13 +26,13 @@ function theme_styles () {
 
     // main files
     wp_enqueue_style('color', get_template_directory_uri() . '/css/colors.css ');
-    wp_enqueue_style('essential-grid', get_template_directory_uri() . '/css/essential-grid.css' );
+    wp_enqueue_style('essential', get_template_directory_uri() . '/css/essential-grid.css' );
     wp_enqueue_style('general', get_template_directory_uri() . '/css/general.css' );
-    wp_enqueue_style('responsive-file', get_template_directory_uri() . '/css/responsive.css' );
+    wp_enqueue_style('responsive', get_template_directory_uri() . '/css/responsive.css' );
     wp_enqueue_style('revslider', get_template_directory_uri() . '/css/revslider.css' );
-    wp_enqueue_style('styles', get_template_directory_uri() . '/css/style.css' );
-    wp_enqueue_style('trx-addons-full', get_template_directory_uri() . '/css/trx_addons_full.css' );
-    wp_enqueue_style('trx-addon', get_template_directory_uri() . '/css/trx-addons.animation.css' );
+    wp_enqueue_style('style', get_template_directory_uri() . '/css/style.css' );
+    wp_enqueue_style('trxaddonfull', get_template_directory_uri() . '/css/trx_addons_full.css' );
+    wp_enqueue_style('trx-addons', get_template_directory_uri() . '/css/trx-addons.animation.css' );
 
     // js
     wp_enqueue_style('settings', get_template_directory_uri() . '/js/vendor/essential-grid/css/settings.css' );
