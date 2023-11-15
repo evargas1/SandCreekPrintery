@@ -53,7 +53,8 @@
                                 <div class="sc_content_container">
                                     <div class="sc_layouts_item">
                                         <a href="index.html" class="sc_layouts_logo sc_layouts_logo_default">
-                                            <img class="logo_image" src="images/Sand Creek Logo.png" alt="">
+                                            <img class="logo_image" src="<?php echo get_template_directory_uri() . '/images/Sand Creek Logo.png'; ?>" />
+                                            
                                         </a>
                                     </div>
                                 </div>
@@ -424,7 +425,7 @@
                                                 </div>
                                             </div><div class="trx_addons_column-1_2 trx_addons_column_specific sc_layouts_column_icons_position_left">
                                             <div class="empty_space height_4em"></div>
-                                            <img id="concept-to-print-image" src="./images/Edna.jpg" alt="" />
+                                            <img id="concept-to-print-image" src="<?php echo get_template_directory_uri() . '/images/Edna.jpg'; ?>" />
                                         </div>
                                         </div>
                                         
@@ -758,12 +759,12 @@
                             <!-- /Footer Menu -->
                             <!-- Socials -->
                             <div class="sc_layouts_item">
-                                <img style="max-width: 15rem;" src="./images/Sand Creek logo2.png" alt="">
+                                <img style="max-width: 15rem;" class="logo_image" src="<?php echo get_template_directory_uri() . '/images/Sand Creek logo2.png'; ?>" />
                             </div>
                             <!-- /Socials -->
                             <!-- Copyright -->
                             <div>
-                                <img style="max-width: 10rem;"  src="./images/golf-associates-logo.png" alt="">
+                                <img style="max-width: 10rem;"src="<?php echo get_template_directory_uri() . '/images/golf-associates-logo.png'; ?>" />
                             </div>
                             <!-- /Copyright -->
                         </div>
