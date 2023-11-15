@@ -5,7 +5,7 @@ function theme_styles () {
 
     // file above not being read ???
     wp_enqueue_style('main-trx', get_template_directory_uri() . '/css/trx_addons_full.css' );
-    wp_enqueue_style('trx-addons-animation', get_template_directory_uri() . '/css/trx-addons.animation.css' );
+    wp_enqueue_style('trx-addons-animation', get_template_directory_uri() . '/css/trx_addons.animation.css' );
 
     wp_enqueue_style('color', get_template_directory_uri() . '/css/colors.css ');
     
