@@ -8,7 +8,7 @@ function theme_styles () {
     // font icons css
     wp_enqueue_style('animation', get_template_directory_uri() . '/css/font-icons/css/animation.css' );
     wp_enqueue_style('trx-addons-icons-codes', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-codes.css' );
-    wp_enqueue_style('trx-addons-icons-embedded', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-embedded.css');
+    wp_enqueue_style('trx_addons-icons-embedded', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-embedded.css');
     wp_enqueue_style('trx-addons-icons-ie7-codes', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7-codes.css' );
     wp_enqueue_style('trx-addons-icons-ie7.css', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons-ie7.css' );
     wp_enqueue_style('trx-addons-icons', get_template_directory_uri() . '/css/font-icons/css/trx_addons_icons.css' );
