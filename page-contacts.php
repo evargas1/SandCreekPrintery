@@ -1,3 +1,5 @@
+
+<?php /* Template Name: contacts */ ?>
 <?php get_header(); ?>
 
 
@@ -169,13 +171,13 @@
                                 </div>
                                 <!-- /Team -->
                                 <!-- Google Map -->
-                                <div class="sc_layouts_column_icons_position_left">
+                                <!-- <div class="sc_layouts_column_icons_position_left">
                                     <div id="sc_googlemap_3_wrap" class="sc_googlemap_wrap">
                                         <div id="sc_googlemap_3" class="sc_googlemap sc_googlemap_default width_100_per height_515" data-zoom="16" data-style="default">
                                             <div id="sc_googlemap_3_1" class="sc_googlemap_marker" data-latlng="" data-address="350 5th Avenue, New York, NY 10001" data-description="" data-title="" data-icon="http://placehold.it/150x150.jpg"></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- /Google Map -->
                             </div>
                         </article>

@@ -24,7 +24,7 @@
                             <div class="sc_content sc_content_default sc_float_left sc_align_left">
                                 <div class="sc_content_container">
                                     <div class="sc_layouts_item">
-                                        <a href="index.html" class="sc_layouts_logo sc_layouts_logo_default">
+                                        <a href="<?php echo get_home_url();  ?>" class="sc_layouts_logo sc_layouts_logo_default">
                                             <img class="logo_image" src="<?php echo get_template_directory_uri() . '/images/Sand Creek Logo.png'; ?>" />
                                             
                                         </a>
@@ -38,7 +38,7 @@
                                     <ul id="menu-main-menu" class="sc_layouts_menu_nav">
                                         <!-- Menu item : Home -->
                                         <li class="menu-item current-menu-ancestor current-menu-parent">
-                                            <a href="<?php echo site_url('/front-page') ?>">
+                                            <a href="<?php echo get_home_url();  ?>">
                                                 <span>Home</span>
                                             </a>
                                         </li>
@@ -74,7 +74,7 @@
                                         <!-- /Menu item : Services -->
                                         <!-- Menu item : About -->
                                         <li class="menu-item">
-                                            <a href="<?php echo site_url('/about-us') ?>">
+                                            <a href="<?php echo site_url('/about') ?>">
                                                 <span>About</span>
                                             </a>
                                         </li>

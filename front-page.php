@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php /* Template Name: Front Page */ ?>
+
+<?php 
+
+get_header(); ?>
                 
                 <!-- Page content wrap -->
                 <div class="page_content_wrap scheme_default">

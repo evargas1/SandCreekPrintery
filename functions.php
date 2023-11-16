@@ -1,10 +1,11 @@
 <?php
 
 function theme_styles () {
+    wp_enqueue_style('main-trx', get_template_directory_uri() . '/css/trx_addons_full.css' );
     wp_enqueue_style('respon-file', get_template_directory_uri() . '/css/responsive.css');
 
     // file above not being read ???
-    wp_enqueue_style('main-trx', get_template_directory_uri() . '/css/trx_addons_full.css' );
+    
     wp_enqueue_style('trx-addons-animation', get_template_directory_uri() . '/css/trx_addons.animation.css' );
 
     wp_enqueue_style('color', get_template_directory_uri() . '/css/colors.css ');
@@ -84,3 +85,39 @@ function theme_scripts_my () {
 add_action( 'wp_enqueue_scripts', 'theme_scripts_my' );
 
 ?>
+
+<?php
+add_filter( 'rwmb_meta_boxes', 'your_prefix_register_meta_boxes' );
+
+function your_prefix_register_meta_boxes( $meta_boxes ) {
+    $prefix = '';
+
+    $meta_boxes[] = [
+        'title'      => esc_html__( 'Main Meta Boxes for Homepage', 'online-generator' ),
+        'id'         => 'untitled',
+        'context'    => 'normal',
+        'post_types' => ['page'] ,
+        
+        'fields'     => [
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'Title', 'online-generator' ),
+                'id'   => $prefix . 'title',
+                'desc' => esc_html__( 'Main Banner Title', 'online-generator' ),
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'Concept to Print Text', 'online-generator' ),
+                'id'   => $prefix . 'concept_to_print_text',
+                'desc' => esc_html__( 'paragraph under concept to print', 'online-generator' ),
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'Sentence under title', 'online-generator' ),
+                'id'   => $prefix . 'sentence_under_title',
+            ],
+        ],
+    ];
+
+    return $meta_boxes;
+}
