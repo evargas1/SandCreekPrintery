@@ -1,8 +1,4 @@
-<?php /* Template Name: Front Page */ ?>
-
-<?php 
-
-get_header(); ?>
+<?php get_header(); ?>
                 
                 <!-- Page content wrap -->
                 <div class="page_content_wrap scheme_default">
@@ -452,11 +448,11 @@ get_header(); ?>
                                                         </div>
                                                     </div>
                                                 </div><div class="trx_addons_column-1_2">
-                                                <form class="sc_form_form " method="post" action="include/sendmail.php">
+                                                <form class="sc_form_form " method="post" action="<?php echo get_template_directory_uri() . '/include/sendmail.php'; ?>">
                                                     <h2 class="sc_item_title sc_form_title sc_align_default sc_item_title_style_default">Request Quote</h2>
                                                     <label class="sc_form_field sc_form_field_name required">
                                                             <span class="sc_form_field_wrap">
-                                                                <input type="text" id="name" value="" aria-required="true" placeholder="Your name">
+                                                                <input type="text" name="name" id="name" value="" aria-required="true" placeholder="Your name">
                                                             </span>
                                                     </label>
                                                     <label class="sc_form_field sc_form_field_email required">
@@ -489,4 +485,5 @@ get_header(); ?>
                 </div>
                 <!-- /Page content wrap -->
 
-                <?php get_footer(); ?>
+    <?php get_footer();
+?>

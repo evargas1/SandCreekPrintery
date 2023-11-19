@@ -1,15 +1,14 @@
 <?php 
 global $_REQUEST;
 $response = array('error'=>'');
-$contact_email = 'your_mail@mail.com';
+$contact_email = 'vargasestrella290@gmail.com';
 
 // type
-$type = $_REQUEST['type'];	
+// $type = $_REQUEST['type'];	
 // parse
-parse_str($_POST['data'], $post_data);	
-		
 
-		$user_name = stripslashes(strip_tags(trim($post_data['username'])));
+parse_str($_POST['data'], $post_data);	
+		$user_name = stripslashes(strip_tags(trim($post_data['name'])));
 		$user_email = stripslashes(strip_tags(trim($post_data['email'])));
 		$user_msg =stripslashes(strip_tags(trim( $post_data['message'])));
 			
@@ -22,14 +21,19 @@ parse_str($_POST['data'], $post_data);
 				. "Reply-To: $user_email\n"
 				. "To: $contact_email\n"
 				. "From: $user_email\n";
-		
+			
+	
+			
 			if (!@mail($contact_email, $subj, $msg, $head)) {
 				$response['error'] = 'Error send message!';
+				
 			}
+			
 		} else 
 				$response['error'] = 'Error send message!';
-
-
+				
 	echo json_encode($response);
+	
 	die();
+	// mail($contact_email,$subj,$msg,$head);
 ?>
