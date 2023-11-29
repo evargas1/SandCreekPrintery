@@ -88,14 +88,14 @@
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
                                                             <a href="team-single.html" aria-hidden="true">
-                                                                <img src="http://placehold.it/515x515" alt="Andy Watson" />
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/pete.jpg'; ?>" alt="Pete Kotheimer" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Andy Watson</a>
+                                                                    <a href="team-single.html">Pete Kotheimer</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">tech-designer</a></div>
+                                                                    <a href="team-single.html">Director of Business Development</a></div>
                                                                 <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
                                                             </div>
                                                             <div class="trx_addons_hover_mask"></div>
@@ -105,14 +105,14 @@
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
                                                             <a href="team-single.html" aria-hidden="true">
-                                                                <img src="http://placehold.it/515x515" alt="Jenny Parker" />
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/brayden.jpg'; ?>" alt="Pete Kotheimer" alt="Jenny Parker" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Jenny Parker</a>
+                                                                    <a href="team-single.html">Brayden</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">tech-designer</a>
+                                                                    <a href="team-single.html">Sales Representative</a>
                                                                 </div>
                                                                 <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
                                                             </div>
@@ -123,14 +123,14 @@
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
                                                             <a href="team-single.html" aria-hidden="true">
-                                                                <img src="http://placehold.it/515x515" alt="Noah Sand" />
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/cathy.jpg'; ?>" alt="Cathy Como" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Noah Sand</a>
+                                                                    <a href="team-single.html">Cathy Como</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">tech-designer</a>
+                                                                    <a href="team-single.html">Sales Representative</a>
                                                                 </div>
                                                                 <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
                                                             </div>
@@ -141,14 +141,14 @@
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
                                                             <a href="team-single.html" aria-hidden="true">
-                                                                <img src="http://placehold.it/515x515" alt="Sean Thompson" />
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/Loo.jpg'; ?>" alt="Loo Loosier" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Sean Thompson</a>
+                                                                    <a href="team-single.html">Loo Loosier</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">tech-designer</a>
+                                                                    <a href="team-single.html">Sales Representative</a>
                                                                 </div>
                                                                 <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
                                                             </div>

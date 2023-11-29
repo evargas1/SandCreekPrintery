@@ -312,7 +312,7 @@
                                             </div><div class="trx_addons_column-1_2 sc_layouts_column_icons_position_left">
                                             <div class="empty_space height_4em"></div>
                                             <figure>
-                                                <!-- <img src="./images/unboxing.jpg" alt="" /> -->
+                                                <img src="<?php echo get_template_directory_uri() . '/images/unboxing.jpg'; ?>" alt="" />
                                             </figure>
                                         </div>
                                         </div>
@@ -442,7 +442,7 @@
                                                             <span class="sc_form_info_area">
                                                                 <span class="sc_form_info_title">Email Address</span>
                                                                 <span class="sc_form_info_data">
-                                                                    <a href="mailto:example@yoursite.com">example@yoursite.com</a>
+                                                                    <a href="mailto:estrella@golfassociates.com">estrella@golfassociates.com</a>
                                                                 </span>
                                                             </span>
                                                         </div>

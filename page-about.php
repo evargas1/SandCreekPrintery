@@ -14,7 +14,7 @@
                                         <div class="trx_addons_columns_wrap">
                                             <div class="z-index_2 trx_addons_column-1_2 trx_addons_column_specific sc_layouts_column_icons_position_left">
                                                 <figure>
-                                                    <img src="http://placehold.it/1140x1044.jpg" alt="" />
+                                                    <img src="<?php echo get_template_directory_uri() . '/images/gary-margie.png'; ?>" alt="" />
                                                 </figure>
                                             </div><div class="custom_column_1 trx_addons_column-1_2 trx_addons_column_specific sc_layouts_column_icons_position_left">
                                                 <div class="copypress-services-custom-block-2">
@@ -29,7 +29,12 @@
                                                                     <span>our history</span>
                                                                 </h2>
                                                                 <div class="sc_action_item_description">
-                                                                    <span>CopyPress has provided quality printing services to the NYC area and beyond since 1896! We specialize in commercial offset printing and digital printing services to cover all your needs. From brochures to banners, we are your one-stop print shop.</span>
+                                                                    <span>Every company name should have meaning - what they do, what they stand for, and the values
+                                                                        to which they aspire. Margie grew up swimming, fishing, catching tadpoles, and running from 
+                                                                        snakes in the waterway that gave its name to Sand Creek Ranch. While thinking about what sets 
+                                                                        us apart, it dawned on me that Margie's father was the perfect examples of the values we wanted 
+                                                                        for our company.
+                                                                    </span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -111,37 +116,39 @@
                                                 <figure class="gallery-item">
                                                     <div class="gallery-icon landscape">
                                                         <a href="#">
-                                                            <img src="http://placehold.it/331x118.jpg" alt="" />
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/limoges-cellars.png'; ?>" alt="" />
+                                    
                                                         </a>
                                                     </div>
                                                 </figure><figure class="gallery-item">
                                                 <div class="gallery-icon landscape">
                                                     <a href="#">
-                                                        <img src="http://placehold.it/331x118.jpg" alt="" />
+                                                        <img src="<?php echo get_template_directory_uri() . '/images/NC-Dept.png'; ?>"  alt="" />
                                                     </a>
                                                 </div>
                                             </figure><figure class="gallery-item">
                                                 <div class="gallery-icon landscape">
                                                     <a href="#">
-                                                        <img src="http://placehold.it/331x118.jpg" alt="" />
+                                                        <img src="<?php echo get_template_directory_uri() . '/images/easley-winery.jpg'; ?>" alt="" />
                                                     </a>
                                                 </div>
                                             </figure><figure class="gallery-item">
                                                 <div class="gallery-icon landscape">
                                                     <a href="#">
-                                                        <img src="http://placehold.it/331x118.jpg" alt="" />
+                                                        <img src="<?php echo get_template_directory_uri() . '/images/stonebrook-winery.jpeg'; ?>" alt="" />
+                                                        
                                                     </a>
                                                 </div>
                                             </figure><figure class="gallery-item">
                                                 <div class="gallery-icon landscape">
                                                     <a href="#">
-                                                        <img src="http://placehold.it/331x118.jpg" alt="" />
+                                                        <img src="<?php echo get_template_directory_uri() . '/images/french-broad-adventures.png'; ?>" alt="" />
                                                     </a>
                                                 </div>
                                             </figure><figure class="gallery-item">
                                                 <div class="gallery-icon landscape">
                                                     <a href="#">
-                                                        <img src="http://placehold.it/331x118.jpg" alt="" />
+                                                        <img src="<?php echo get_template_directory_uri() . '/images/west-orange-trail.png'; ?>" alt="" />
                                                     </a>
                                                 </div>
                                             </figure>
