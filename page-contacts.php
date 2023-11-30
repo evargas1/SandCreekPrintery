@@ -41,7 +41,7 @@
                                                             <span class="sc_form_info_area">
                                                                 <span class="sc_form_info_title">Email Address</span>
                                                                 <span class="sc_form_info_data">
-                                                                    <a href="mailto:example@yoursite.com">example@yoursite.com</a>
+                                                                    <a href="mailto:info@sandcreekprintery.com">info@sandcreekprintery.com</a>
                                                                 </span>
                                                             </span>
                                                         </div>

@@ -43,6 +43,13 @@
                                             </a>
                                         </li>
                                         <!-- /Menu item : Home -->
+                                        <!-- Menu item : Gallery -->
+                                        <li class="menu-item current-menu-ancestor current-menu-parent">
+                                            <a href="<?php echo site_url('/gallery') ?>">
+                                                <span>Gallery</span>
+                                            </a>
+                                        </li>
+                                        <!-- /Menu item : Gallery -->
                                         <!-- Menu item : Services -->
                                         <li class="menu-item menu-item-has-children">
                                             <a href="#">
@@ -98,7 +105,7 @@
                             <!-- E-mail -->
                             <div class="sc_layouts_item contacts">
                                 <div class="sc_layouts_iconed_text">
-                                    <a href="mailto:info@yoursite.com" class="sc_layouts_item_link sc_layouts_iconed_text_link">
+                                    <a href="mailto:info@sandcreekprintery.com" class="sc_layouts_item_link sc_layouts_iconed_text_link">
                                         <span class="sc_layouts_item_icon sc_layouts_iconed_text_icon icon-mail-empty"></span>
                                         <span class="sc_layouts_item_details sc_layouts_iconed_text_details">
                                             <span class="sc_layouts_item_details_line2 sc_layouts_iconed_text_line2">info@sandcreekprintery.com</span>
@@ -125,6 +132,13 @@
                                     </a>
                                 </li>
                                 <!-- /Menu item : Home -->
+                                <!-- Menu item : Gallery -->
+                                <li class="menu-item current-menu-ancestor current-menu-parent">
+                                        <a href="<?php echo site_url('/gallery') ?>">
+                                            <span>Gallery</span>
+                                        </a>
+                                        </li>
+                                        <!-- /Menu item : Gallery -->
                                 <!-- Menu item : Services -->
                                 <li class="menu-item">
                                     <a href="#">

@@ -442,7 +442,7 @@
                                                             <span class="sc_form_info_area">
                                                                 <span class="sc_form_info_title">Email Address</span>
                                                                 <span class="sc_form_info_data">
-                                                                    <a href="mailto:estrella@golfassociates.com">estrella@golfassociates.com</a>
+                                                                    <a href="mailto:info@sandcreekprintery.com">info@sandcreekprintery.com</a>
                                                                 </span>
                                                             </span>
                                                         </div>
