@@ -65,6 +65,124 @@
     color: #d3ad74;
 }
 
+/* banner on top of wave with our different services */
+.respon-4{
+    text-align: center;
+}
+.first-col{
+    display: inline-flex;
+}
+.first-col a{
+    flex: 25%;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e7d8d8;
+    border-radius: 15px;
+    box-shadow:
+      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+      0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    min-width: 10rem;
+    /* max-width: 15rem; */
+    margin-right: 3rem;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    
+}
+.card:hover{
+    background-color: #dcbc8c;
+    border-color: #d5b687;
+}
+.card:focus{
+    background-color: #dcbc8c;
+    border-color: #d5b687;
+}
+.card h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+a .card img{
+    width: 6rem;
+}
+@media only screen and (max-width: 1000px) {
+    .card{
+        margin-right: 1rem;
+        margin-top: 1rem;
+        min-width: 10rem;
+    }
+    .first-col{
+        flex-wrap: wrap;
+    }
+    .first-col a{
+        flex: 50%;
+    }
+}
+
+/* banner of we work with a variety of industries */
+.we-work-with{
+    padding-top: 2rem;
+}
+.respon-4-sqaure{
+    text-align: left;
+} 
+.first-col-sqaure{
+    display: inline-flex;
+}
+.first-col-sqaure a{
+    flex: 25%;
+}
+
+.card-sqaure {
+    background-color: rgb(210, 222, 229);
+    border: 1px solid rgb(210, 222, 229);
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    min-width: 15rem;
+    align-items: center;
+}
+.card-sqaure:hover{
+    background-color: #fff;
+    border-color: rgb(210, 222, 229);
+}
+.card-sqaure:focus{
+    background-color: #fff;
+    border-color: rgb(210, 222, 229);
+}
+.card-sqaure h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+a .card-sqaure img{
+    width: 8rem;
+    color: black;
+    text-decoration: none;
+    opacity: 1;
+}
+@media only screen and (max-width: 1100px) {
+    .card-sqaure{
+        /* margin-right: 1rem;  */
+        /* margin-top: .5rem; */
+        min-width: 10rem;
+    }
+    .first-col-sqaure{
+        flex-wrap: wrap;
+    }
+    .first-col-sqaure a{
+        flex: 50%;
+    }
+}
+
 /* concept to print section */
 #concept-to-print-image{
     width: 80%;

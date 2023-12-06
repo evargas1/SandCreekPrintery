@@ -27,56 +27,34 @@
 
 
                                             <!-- trx_addons_columns_wrap - class is responsible for putting 2 in a row - added new class called format-inline -->
-                                            <div class="">
-                                                <div class="sc_services sc_services_list custom_services_1 copypress-services-custom-block" data-slides-per-view="2" data-slides-min-width="200">
-                                                    <div class="sc_services_columns sc_item_columns columns_padding_bottom format-inline">
-                                                        <div class="trx_addons_column-1_2 elements-4">
-                                                            <div class="sc_services_item without_content with_icon sc_services_item_featured_top">
-                                                                <a href="services-single.html" class="sc_services_item_icon icon-technology-1"></a>
-                                                                <div class="sc_services_item_info">
-                                                                    <div class="sc_services_item_header">
-                                                                        <h6 class="sc_services_item_title">
-                                                                            <a href="services-single.html">Copying Services</a>
-                                                                        </h6>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div><div class="trx_addons_column-1_2 elements-4">
-                                                        <div class="sc_services_item without_content with_icon sc_services_item_featured_top">
-                                                            <a href="services-single.html" class="sc_services_item_icon icon-technology"></a>
-                                                            <div class="sc_services_item_info">
-                                                                <div class="sc_services_item_header">
-                                                                    <h6 class="sc_services_item_title">
-                                                                        <a href="services-single.html">Design Services</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
+                                            <div class="respon-4">
+                                                <div class="first-col">
+                                                    <a href="">
+                                                        <div class="card">
+                                                            <h3>Branding</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/branding.png'; ?>" alt="">
                                                         </div>
-                                                    </div><div class="trx_addons_column-1_2 elements-4">
-                                                        <div class="sc_services_item without_content with_icon sc_services_item_featured_top">
-                                                            <a href="services-single.html" class="sc_services_item_icon icon-technology-2"></a>
-                                                            <div class="sc_services_item_info">
-                                                                <div class="sc_services_item_header">
-                                                                    <h6 class="sc_services_item_title">
-                                                                        <a href="services-single.html">Digital Scanning</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="card">
+                                                            <h3>Web Design</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/web-design.png'; ?>" alt="">
                                                         </div>
-                                                    </div><div class="trx_addons_column-1_2 elements-4">
-                                                        <div class="sc_services_item without_content with_icon sc_services_item_featured_top">
-                                                            <a href="services-single.html" class="sc_services_item_icon icon-technology-3"></a>
-                                                            <div class="sc_services_item_info">
-                                                                <div class="sc_services_item_header">
-                                                                    <h6 class="sc_services_item_title">
-                                                                        <a href="services-single.html">Printing Services</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="card">
+                                                            <h3>Printer</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/printer.png'; ?>" alt="">
                                                         </div>
-                                                    </div>
-                                                    </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="card">
+                                                            <h3>Shipping</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/delivery-truck.png'; ?>" alt="">
+                                                        </div>
+                                                    </a>
                                                 </div>
+                                                
                                             </div>
 
 
@@ -89,70 +67,39 @@
 
                                 <!-- We work with a variety of industries -->
                                 <div class="copypress-custom-bg-6">
-                                    <div class="content_wrap sc_layouts_column_icons_position_left">
+                                <div class="content_wrap sc_layouts_column_icons_position_left">
                                         <div class="brands">
-
-
+                                            <h3 class="we-work-with">We Work With a Variety of Industries</h3>
                                             <!-- trx_addons_columns_wrap - class is responsible for putting 2 in a row - added new class called format-inline -->
-                                            <div class="">
-                                                
-                                                <div class="sc_services sc_services_list custom_services_1 copypress-services-custom-block" data-slides-per-view="2" data-slides-min-width="200">
-                                                    <h3>We work with <br> a variety of industries</h3>
-                                                    <div class="sc_services_columns sc_item_columns columns_padding_bottom format-inline">
-                                                        <div id="industry-1" class="trx_addons_column-1_2 elements-4-large">
-                                                            <div class="sc_services_item without_content with_icon-large sc_services_item_featured_top-large">
-                                                                <a href="services-single.html" class="sc_services_item_icon-large icon-technology-1"></a>
-                                                                <div class="sc_services_item_info">
-                                                                    <div class="sc_services_item_header">
-                                                                        <h6 class="sc_services_item_title">
-                                                                            <a href="services-single.html">Copying Services</a>
-                                                                        </h6>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                            <div class="respon-4-sqaure">
+                                                <div class="first-col-sqaure">
+                                                    <a href="">
+                                                        <div class="card-sqaure">
+                                                            <h3>Branding</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/branding.png'; ?>" alt="">
                                                         </div>
-                                                        <div id="industry-2" class="trx_addons_column-1_2 elements-4-large">
-                                                        <div class="sc_services_item without_content with_icon-large sc_services_item_featured_top-large">
-                                                            <a href="services-single.html" class="sc_services_item_icon-large icon-technology"></a>
-                                                            <div class="sc_services_item_info">
-                                                                <div class="sc_services_item_header">
-                                                                    <h6 class="sc_services_item_title">
-                                                                        <a href="services-single.html">Design Services</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="card-sqaure">
+                                                            <h3>Web Design</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/web-design.png'; ?>" alt="">
                                                         </div>
-                                                    </div>
-                                                    <div id="industry-3" class="trx_addons_column-1_2 elements-4-large">
-                                                        <div class="sc_services_item without_content with_icon-large sc_services_item_featured_top-large">
-                                                            <a href="services-single.html" class="sc_services_item_icon-large icon-technology-2"></a>
-                                                            <div class="sc_services_item_info">
-                                                                <div class="sc_services_item_header">
-                                                                    <h6 class="sc_services_item_title">
-                                                                        <a href="services-single.html">Digital Scanning</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="card-sqaure">
+                                                            <h3>Printer</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/printer.png'; ?>" alt="">
                                                         </div>
-                                                    </div>
-                                                    <div id="industry-4" class="trx_addons_column-1_2 elements-4-large">
-                                                        <div class="sc_services_item without_content with_icon-large sc_services_item_featured_top-large">
-                                                            <a href="services-single.html" class="sc_services_item_icon-large icon-technology-3"></a>
-                                                            <div class="sc_services_item_info">
-                                                                <div class="sc_services_item_header">
-                                                                    <h6 class="sc_services_item_title">
-                                                                        <a href="services-single.html">Printing Services</a>
-                                                                    </h6>
-                                                                </div>
-                                                            </div>
+                                                    </a>
+                                                    <a href="">
+                                                        <div class="card-sqaure">
+                                                            <h3>Shipping</h3>
+                                                            <img src="<?php echo get_template_directory_uri() . '/images/delivery-truck.png'; ?>" alt="">
                                                         </div>
-                                                    </div>
-                                                    </div>
+                                                    </a>
                                                 </div>
+                                                
                                             </div>
-
-
-                                            
                                         </div>
                                         <div class="empty_space height_4em"></div>
                                     </div>
