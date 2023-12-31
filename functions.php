@@ -99,37 +99,148 @@ add_action( 'wp_enqueue_scripts', 'theme_scripts_my' );
 ?>
 
 <?php
+// add_filter( 'rwmb_meta_boxes', 'your_prefix_register_meta_boxes' );
+
+// function your_prefix_register_meta_boxes( $meta_boxes ) {
+//     $prefix = '';
+
+//     $meta_boxes[] = [
+//         'title'      => esc_html__( 'Main Meta Boxes for Homepage', 'online-generator' ),
+//         'id'         => 'untitled',
+//         'context'    => 'normal',
+//         'post_types' => ['page'] ,
+        
+//         'fields'     => [
+//             [
+//                 'type' => 'text',
+//                 'name' => esc_html__( 'Title', 'online-generator' ),
+//                 'id'   => $prefix . 'title',
+//                 'desc' => esc_html__( 'Main Banner Title', 'online-generator' ),
+//             ],
+//             [
+//                 'type' => 'text',
+//                 'name' => esc_html__( 'Concept to Print Text', 'online-generator' ),
+//                 'id'   => $prefix . 'concept_to_print_text',
+//                 'desc' => esc_html__( 'paragraph under concept to print', 'online-generator' ),
+//             ],
+//             [
+//                 'type' => 'text',
+//                 'name' => esc_html__( 'Sentence under title', 'online-generator' ),
+//                 'id'   => $prefix . 'sentence_under_title',
+//             ],
+//         ],
+//     ];
+
+//     return $meta_boxes;
+// }
+
+
 add_filter( 'rwmb_meta_boxes', 'your_prefix_register_meta_boxes' );
 
 function your_prefix_register_meta_boxes( $meta_boxes ) {
     $prefix = '';
 
     $meta_boxes[] = [
-        'title'      => esc_html__( 'Main Meta Boxes for Homepage', 'online-generator' ),
-        'id'         => 'untitled',
-        'context'    => 'normal',
-        'post_types' => ['page'] ,
-        
-        'fields'     => [
+        'title'   => esc_html__( 'Untitled Field Group', 'online-generator' ),
+        'id'      => 'untitled',
+        'context' => 'normal',
+        'post_types' => ['page'],
+        'visible' => [ 'page_template', 'page-contacts.php' ],
+        'fields'  => [
             [
                 'type' => 'text',
-                'name' => esc_html__( 'Title', 'online-generator' ),
+                'name' => esc_html__( 'title', 'online-generator' ),
                 'id'   => $prefix . 'title',
-                'desc' => esc_html__( 'Main Banner Title', 'online-generator' ),
+            ],
+            [
+                'type' => 'textarea',
+                'name' => esc_html__( 'small text under title', 'online-generator' ),
+                'id'   => $prefix . 'small_text_under_title',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'what we do img1', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_img1',
             ],
             [
                 'type' => 'text',
-                'name' => esc_html__( 'Concept to Print Text', 'online-generator' ),
-                'id'   => $prefix . 'concept_to_print_text',
-                'desc' => esc_html__( 'paragraph under concept to print', 'online-generator' ),
+                'name' => esc_html__( 'what we do text1', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_text1',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'what we do img2', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_img2',
             ],
             [
                 'type' => 'text',
-                'name' => esc_html__( 'Sentence under title', 'online-generator' ),
-                'id'   => $prefix . 'sentence_under_title',
+                'name' => esc_html__( 'what we do text2', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_text2',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'what we do img3', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_img3',
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'what we do text3', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_text3',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'what we do img4', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_img4',
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'what we do text4', 'online-generator' ),
+                'id'   => $prefix . 'what_we_do_text4',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'we work with img1', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_img1',
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'we work with text1', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_text1',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'we work with img2', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_img2',
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'we work with text2', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_text2',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'we work with img3', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_img3',
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'we work with text3', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_text3',
+            ],
+            [
+                'type' => 'image',
+                'name' => esc_html__( 'we work with img4', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_img4',
+            ],
+            [
+                'type' => 'text',
+                'name' => esc_html__( 'we work with text4', 'online-generator' ),
+                'id'   => $prefix . 'we_work_with_text4',
             ],
         ],
     ];
 
     return $meta_boxes;
 }
+
+?>
