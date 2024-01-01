@@ -1,10 +1,5 @@
 <?php /* Template Name: Home */ ?>
 
-
-
-
-
-
 <?php get_header(); ?>
                 
                 <!-- Page content wrap -->
@@ -34,29 +29,30 @@
 
 
                                             <!-- trx_addons_columns_wrap - class is responsible for putting 2 in a row - added new class called format-inline -->
+                                            <!-- what we do -->
                                             <div class="respon-4">
                                                 <div class="first-col">
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3>Branding</h3>
+                                                            <h3><?= rwmb_get_value( 'what_we_do_text1' ) ?></h3>
                                                             <img src="<?php echo get_template_directory_uri() . '/images/branding.png'; ?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3>Web Design</h3>
+                                                            <h3><?php rwmb_get_value( 'what_we_do_text2' ) ?></h3>
                                                             <img src="<?php echo get_template_directory_uri() . '/images/web-design.png'; ?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3>Printer</h3>
+                                                            <h3><?php rwmb_get_value( 'what_we_do_text3' ) ?></h3>
                                                             <img src="<?php echo get_template_directory_uri() . '/images/printer.png'; ?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3>Shipping</h3>
+                                                            <h3><?php rwmb_get_value( 'what_we_do_text4' ) ?></h3>
                                                             <img src="<?php echo get_template_directory_uri() . '/images/delivery-truck.png'; ?>" alt="">
                                                         </div>
                                                     </a>
@@ -439,5 +435,7 @@
                 </div>
                 <!-- /Page content wrap -->
 
-    <?php get_footer();
+    <?php get_footer(); ?>
+<?php
+
 ?>

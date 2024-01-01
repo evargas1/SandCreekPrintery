@@ -145,7 +145,7 @@ function your_prefix_register_meta_boxes( $meta_boxes ) {
         'id'      => 'untitled',
         'context' => 'normal',
         'post_types' => ['page'],
-        'visible' => [ 'page_template', 'page-contacts.php' ],
+        'visible' => [ 'page_template', 'front-page.php' ],
         'fields'  => [
             [
                 'type' => 'text',
