@@ -34,7 +34,8 @@
                                                 <div class="first-col">
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3><?= rwmb_get_value( 'what_we_do_text1' ) ?></h3>
+                                                            <h3><?php echo get_post_meta(32, 'what_we_do_text1', true);?></h3>
+
                                                             <img src="<?php echo get_template_directory_uri() . '/images/branding.png'; ?>" alt="">
                                                         </div>
                                                     </a>
