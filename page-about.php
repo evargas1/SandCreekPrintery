@@ -72,7 +72,7 @@
                                                     <div class="sc_skills_item_wrap">
                                                         <div class="sc_skills_item">
                                                             <div class="sc_skills_icon icon-content"></div>
-                                                            <div class="sc_skills_total" data-start="0" data-stop="19" data-step="8" data-max="750" data-speed="35" data-duration="83" data-ed="">0</div>
+                                                            <div class="sc_skills_total" data-start="0" data-stop="52" data-step="1" data-max="750" data-speed="35" data-duration="83" data-ed="">0</div>
                                                         </div>
                                                         <div class="sc_skills_item_title">Years Of Work</div>
                                                     </div>
@@ -80,7 +80,7 @@
                                                     <div class="sc_skills_item_wrap">
                                                         <div class="sc_skills_item">
                                                             <div class="sc_skills_icon icon-schedule"></div>
-                                                            <div class="sc_skills_total" data-start="0" data-stop="456" data-step="8" data-max="750" data-speed="27" data-duration="1539" data-ed="">0</div>
+                                                            <div class="sc_skills_total" data-start="0" data-stop="800" data-step="10" data-max="800" data-speed="50" data-duration="1539" data-ed="">0</div>
                                                         </div>
                                                         <div class="sc_skills_item_title">Hours Worked</div>
                                                     </div>
@@ -96,7 +96,7 @@
                                                     <div class="sc_skills_item_wrap">
                                                         <div class="sc_skills_item">
                                                             <div class="sc_skills_icon icon-approve"></div>
-                                                            <div class="sc_skills_total" data-start="0" data-stop="34" data-step="8" data-max="750" data-speed="28" data-duration="119" data-ed="">0</div>
+                                                            <div class="sc_skills_total" data-start="0" data-stop="267" data-step="8" data-max="750" data-speed="28" data-duration="119" data-ed="">0</div>
                                                         </div>
                                                         <div class="sc_skills_item_title">Completed Projects</div>
                                                     </div>

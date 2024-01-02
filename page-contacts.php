@@ -23,7 +23,7 @@
                                                             <span class="sc_form_info_area">
                                                                 <span class="sc_form_info_title">Our Office</span>
                                                                 <span class="sc_form_info_data">
-                                                                    <span>123, NewLenox,Chicago, IL 60606</span>
+                                                                    <span>91 Westside Dr, Asheville, NC 28806</span>
                                                                 </span>
                                                             </span>
                                                         </div>
@@ -32,7 +32,7 @@
                                                             <span class="sc_form_info_area">
                                                                 <span class="sc_form_info_title">Phone</span>
                                                                 <span class="sc_form_info_data">
-                                                                    <span>800-123-4567</span>
+                                                                    <span>828-252-9867</span>
                                                                 </span>
                                                             </span>
                                                         </div>
@@ -47,27 +47,9 @@
                                                         </div>
                                                     </div>
                                                 </div><div class="trx_addons_column-1_2">
-                                                    <form class="sc_form_form " method="post" action="include/sendmail.php">
+                                                    <form class="sc_form_form " >
                                                         <h2 class="sc_item_title sc_form_title sc_align_default sc_item_title_style_default">Request Quote</h2>
-                                                        <label class="sc_form_field sc_form_field_name required">
-                                                            <span class="sc_form_field_wrap">
-                                                                <input type="text" id="name" value="" aria-required="true" placeholder="Your name">
-                                                            </span>
-                                                        </label>
-                                                        <label class="sc_form_field sc_form_field_email required">
-                                                            <span class="sc_form_field_wrap">
-                                                                <input type="text" name="email" id="email" value="" aria-required="true" placeholder="Your e-mail">
-                                                            </span>
-                                                        </label>
-                                                        <label class="sc_form_field sc_form_field_message required">
-                                                            <span class="sc_form_field_wrap">
-                                                                <textarea name="message" id="message" aria-required="true" placeholder="Your message"></textarea>
-                                                            </span>
-                                                        </label>
-                                                        <div class="sc_form_field sc_form_field_button">
-                                                            <button class="sc_button_dark">Send Message</button>
-                                                        </div>
-                                                        <div class="trx_addons_message_box sc_form_result"></div>
+                                                        <?php echo do_shortcode('[wpforms id="106"]');?>
                                                     </form>
                                                 </div>
                                             </div>
@@ -87,16 +69,16 @@
                                                 <div class="trx_addons_column-1_4">
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
-                                                            <a href="team-single.html" aria-hidden="true">
+                                                            <a href="mailto:pete@sandcreekprintery.com" aria-hidden="true">
                                                                 <img src="<?php echo get_template_directory_uri() . '/images/pete.jpg'; ?>" alt="Pete Kotheimer" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Pete Kotheimer</a>
+                                                                    <a href="mailto:pete@sandcreekprintery.com">Pete Kotheimer</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">Director of Business Development</a></div>
-                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
+                                                                    <a href="mailto:pete@sandcreekprintery.com">Director of Business Development</a></div>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:pete@sandcreekprintery.com"></a>
                                                             </div>
                                                             <div class="trx_addons_hover_mask"></div>
                                                         </div>
@@ -104,17 +86,17 @@
                                                 </div><div class="trx_addons_column-1_4">
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
-                                                            <a href="team-single.html" aria-hidden="true">
-                                                                <img src="<?php echo get_template_directory_uri() . '/images/brayden.jpg'; ?>" alt="Pete Kotheimer" alt="Jenny Parker" />
+                                                            <a href="mailto:brayden@sandcreekprintery.com" aria-hidden="true">
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/brayden.jpg'; ?>" alt="Pete Kotheimer" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Brayden</a>
+                                                                    <a href="mailto:brayden@sandcreekprintery.com">Brayden</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">Sales Representative</a>
+                                                                    <a href="mailto:brayden@sandcreekprintery.com">Sales Representative</a>
                                                                 </div>
-                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:brayden@sandcreekprintery.com"></a>
                                                             </div>
                                                             <div class="trx_addons_hover_mask"></div>
                                                         </div>
@@ -122,17 +104,17 @@
                                                 </div><div class="trx_addons_column-1_4">
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
-                                                            <a href="team-single.html" aria-hidden="true">
+                                                            <a href="mailto:cathy@sandcreekprintery.com" aria-hidden="true">
                                                                 <img src="<?php echo get_template_directory_uri() . '/images/cathy.jpg'; ?>" alt="Cathy Como" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Cathy Como</a>
+                                                                    <a href="mailto:cathy@sandcreekprintery.com">Cathy Como</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">Sales Representative</a>
+                                                                    <a href="mailto:cathy@sandcreekprintery.com">Sales Representative</a>
                                                                 </div>
-                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:cathy@sandcreekprintery.com"></a>
                                                             </div>
                                                             <div class="trx_addons_hover_mask"></div>
                                                         </div>
@@ -140,17 +122,91 @@
                                                 </div><div class="trx_addons_column-1_4">
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
-                                                            <a href="team-single.html" aria-hidden="true">
+                                                            <a href="mailto:loo@sandcreekprintery.com" aria-hidden="true">
                                                                 <img src="<?php echo get_template_directory_uri() . '/images/Loo.jpg'; ?>" alt="Loo Loosier" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">
-                                                                    <a href="team-single.html">Loo Loosier</a>
+                                                                    <a href="mailto:loo@sandcreekprintery.com">Loo Loosier</a>
                                                                 </h3>
                                                                 <div class="sc_team_item_subtitle trx_addons_hover_title">
-                                                                    <a href="team-single.html">Sales Representative</a>
+                                                                    <a href="mailto:loo@sandcreekprintery.com">Sales Representative</a>
                                                                 </div>
-                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="team-single.html"></a>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:loo@sandcreekprintery.com"></a>
+                                                            </div>
+                                                            <div class="trx_addons_hover_mask"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="sc_team_columns sc_item_columns trx_addons_columns_wrap">
+                                                <div class="trx_addons_column-1_4">
+                                                    <div class="sc_team_item">
+                                                        <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+                                                            <a href="mailto:james@sandcreekprintery.com" aria-hidden="true">
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/james-sqaure.png'; ?>" alt="James Dunton" />
+                                                            </a>
+                                                            <div class="trx_addons_hover_content">
+                                                                <h3 class="sc_team_item_title trx_addons_hover_title">
+                                                                    <a href="mailto:james@sandcreekprintery.com">James Dunton</a>
+                                                                </h3>
+                                                                <div class="sc_team_item_subtitle trx_addons_hover_title">
+                                                                    <a href="mailto:james@sandcreekprintery.com">Community Sponsored Product Specialist</a></div>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:james@sandcreekprintery.com"></a>
+                                                            </div>
+                                                            <div class="trx_addons_hover_mask"></div>
+                                                        </div>
+                                                    </div>
+                                                </div><div class="trx_addons_column-1_4">
+                                                    <div class="sc_team_item">
+                                                        <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+                                                            <a href="mailto:marybeth@sandcreekprintery.com" aria-hidden="true">
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/mb-sqaure.png'; ?>" alt="Mary Beth Lamke" alt="Mary Beth Lamke" />
+                                                            </a>
+                                                            <div class="trx_addons_hover_content">
+                                                                <h3 class="sc_team_item_title trx_addons_hover_title">
+                                                                    <a href="mailto:marybeth@sandcreekprintery.com">Mary Beth Lamke</a>
+                                                                </h3>
+                                                                <div class="sc_team_item_subtitle trx_addons_hover_title">
+                                                                    <a href="mailto:marybeth@sandcreekprintery.com">Account Manager Specialty Accounts</a>
+                                                                </div>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:marybeth@sandcreekprintery.com"></a>
+                                                            </div>
+                                                            <div class="trx_addons_hover_mask"></div>
+                                                        </div>
+                                                    </div>
+                                                </div><div class="trx_addons_column-1_4">
+                                                    <div class="sc_team_item">
+                                                        <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+                                                            <a href="mailto:mike@sandcreekprintery.com" aria-hidden="true">
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/mike-sqaure.png'; ?>" alt="Mike Hipps" />
+                                                            </a>
+                                                            <div class="trx_addons_hover_content">
+                                                                <h3 class="sc_team_item_title trx_addons_hover_title">
+                                                                    <a href="mailto:mike@sandcreekprintery.com">Mike Hipps</a>
+                                                                </h3>
+                                                                <div class="sc_team_item_subtitle trx_addons_hover_title">
+                                                                    <a href="mailto:mike@sandcreekprintery.com">Sales Representative</a>
+                                                                </div>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:mike@sandcreekprintery.com"></a>
+                                                            </div>
+                                                            <div class="trx_addons_hover_mask"></div>
+                                                        </div>
+                                                    </div>
+                                                </div><div class="trx_addons_column-1_4">
+                                                    <div class="sc_team_item">
+                                                        <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
+                                                            <a href="mailto:katie@sandcreekprintery.com" aria-hidden="true">
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/katie-sqaure.png'; ?>" alt="Katie Robinson" />
+                                                            </a>
+                                                            <div class="trx_addons_hover_content">
+                                                                <h3 class="sc_team_item_title trx_addons_hover_title">
+                                                                    <a href="mailto:katie@sandcreekprintery.com">Katie Robinson</a>
+                                                                </h3>
+                                                                <div class="sc_team_item_subtitle trx_addons_hover_title">
+                                                                    <a href="mailto:katie@sandcreekprintery.com">Project Coordinator</a>
+                                                                </div>
+                                                                <a class="trx_addons_hover_link sc_team_item_link icon-right" href="mailto:katie@sandcreekprintery.com"></a>
                                                             </div>
                                                             <div class="trx_addons_hover_mask"></div>
                                                         </div>
@@ -159,13 +215,7 @@
                                             </div>
                                         </div>
                                         <div class="empty_space height_4em"></div>
-                                        <div class="sc_item_button sc_button_wrap sc_align_center">
-                                            <a href="#" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
-                                                <span class="sc_button_text">
-                                                    <span class="sc_button_title">discover more</span>
-                                                </span>
-                                            </a>
-                                        </div>
+                                        
                                         <div class="empty_space height_8_9em"></div>
                                     </div>
                                 </div>

@@ -3659,21 +3659,3 @@ label.required .sc_form_field_title:after {
 .mc4wp-form input[type="email"]:-ms-input-placeholder {
     color: #c0392b;
 }
-
-
-.respon-4{
-    text-align: center;
-}
-.first-col{
-    display: inline-flex;
-}
-.first-col a{
-    flex: 25%;
-}
-.row-5{
-    text-align: center;
-    display: inline-flex;
-}
-.section-5{
-    flex: 15%
-}
