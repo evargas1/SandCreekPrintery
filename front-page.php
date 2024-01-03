@@ -128,12 +128,12 @@
                                                 <p><?php echo get_post_meta(41, 'paragraph', true);?></p>
                                                 <div class="empty_space height_2_9em"></div>
                                                 <div class="sc_item_button sc_button_wrap">
-                                                    <a href="#" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
+                                                    <a href="<?php echo site_url('/contacts') ?>" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
                                                         <span class="sc_button_text">
                                                             <span class="sc_button_title">Request a Quote</span>
                                                         </span>
                                                     </a>
-                                                    <a href="#" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
+                                                    <a href="<?php echo site_url('/contacts') ?>" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
                                                         <span class="sc_button_text">
                                                             <span class="sc_button_title">Free Samples</span>
                                                         </span>
