@@ -42,9 +42,9 @@
                                                     </div>
                                                     <div class="empty_space height_2_5em"></div>
                                                     <div class="sc_item_button sc_button_wrap sc_align_center">
-                                                        <a href="#" class="sc_button sc_button_dark sc_button_size_normal sc_button_icon_left">
+                                                        <a href="mailto:gary@sandcreekprintery.com" class="sc_button sc_button_dark sc_button_size_normal sc_button_icon_left">
                                                             <span class="sc_button_text">
-                                                                <span class="sc_button_title">more info</span>
+                                                                <span class="sc_button_title">Contact us</span>
                                                             </span>
                                                         </a>
                                                     </div>
