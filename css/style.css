@@ -4638,9 +4638,7 @@ body.custom-background {
 }
 
 .copypress-custom-bg-8 {
-	 background-image: url(http://localhost:10003/wp-content/uploads/2024/01/background-img-team-final.png);
-	 background-position: center center;
-	 background-size: cover;
+	background: rgb(35 67 42);
  }
 
 .copypress-custom-bg-9 {

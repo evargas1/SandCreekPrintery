@@ -59,21 +59,21 @@
                                                 <!-- Menu item : Service1 -->
                                                 <li class="menu-item menu-item-has-children">
                                                     <a href="#">
-                                                        <span>Service 1</span>
+                                                        <span style="color:black;">Service 1</span>
                                                     </a>
                                                 </li>
                                                 <!-- /Menu item : Service1 -->
                                                 <!-- Menu item : Service2 -->
                                                 <li class="menu-item menu-item-has-children">
                                                     <a href="#">
-                                                        <span>Service 2</span>
+                                                        <span style="color:black;">Service 2</span>
                                                     </a>
                                                 </li>
                                                 <!-- /Menu item : Service2 -->
                                                 <!-- Menu item : Service3 -->
                                                 <li class="menu-item menu-item-has-children">
                                                     <a href="#">
-                                                        <span>Service3</span>
+                                                        <span style="color:black;">Service3</span>
                                                     </a>
                                                 <!-- /Menu item : Service2 -->
                                             </ul>

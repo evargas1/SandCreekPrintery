@@ -57,8 +57,8 @@
                                     <div class="content_wrap sc_layouts_column_icons_position_left">
                                         <div class="empty_space height_9_2em"></div>
                                         <div class="sc_title sc_title_default">
-                                            <h6 class="sc_item_subtitle sc_title_subtitle sc_align_center sc_item_title_style_yellow_sub">SOME WORD ABOUT US</h6>
-                                            <h2 class="sc_item_title sc_title_title sc_align_center sc_item_title_style_yellow_sub">We're Proud Of Our Work</h2>
+                                            <h6 class="sc_item_subtitle sc_title_subtitle sc_align_center sc_item_title_style_yellow_sub" style="color:#fff">SOME WORD ABOUT US</h6>
+                                            <h2 class="sc_item_title sc_title_title sc_align_center sc_item_title_style_yellow_sub" style="color:#fff">We're Proud Of Our Work</h2>
                                         </div>
                                         <div class="empty_space height_4_6em"></div>
                                         <div class="sc_skills sc_skills_counter" data-type="counter">

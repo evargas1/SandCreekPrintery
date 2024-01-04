@@ -70,7 +70,7 @@
                                                     <div class="sc_team_item">
                                                         <div class="post_featured sc_team_item_thumb trx_addons_hover trx_addons_hover_style_info">
                                                             <a href="mailto:pete@sandcreekprintery.com" aria-hidden="true">
-                                                                <img src="<?php echo get_template_directory_uri() . '/images/pete.jpg'; ?>" alt="Pete Kotheimer" />
+                                                                <img src="<?php echo get_template_directory_uri() . '/images/Pete.jpg'; ?>" alt="Pete Kotheimer" />
                                                             </a>
                                                             <div class="trx_addons_hover_content">
                                                                 <h3 class="sc_team_item_title trx_addons_hover_title">

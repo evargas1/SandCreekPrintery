@@ -14,7 +14,7 @@
                                         <span class="sc_form_info_icon icon_phone"></span>
                                         <p>(123)456-7890</p>
                                         <br>
-                                        <span><a href="mailto:info@sandcreekprintery.com">info@sandcreekprintery.com</a></span>
+                                        <span><a href="mailto:info@sandcreekprintery.com" style="font-size:10px; letter-spacing:2px; padding: 10px 15px;">info@sandcreekprintery.com</a></span>
                                     </div>
                                     
                                 </div>
