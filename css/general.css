@@ -1294,7 +1294,7 @@ body.frontpage .sc_layouts_hide_on_frontpage, body.error404 .sc_layouts_hide_on_
     left: 0;
     right: 0;
     margin: 0 !important;
-    background-color: #fff;
+    background-color: #000000;
 }
 .sc_layouts_row_type_compact.sc_layouts_row_fixed_on, .sc_layouts_row_type_normal.sc_layouts_row_fixed_on {
      padding-top: 0;

@@ -276,7 +276,7 @@
                                 
                                
                                 <!-- Blogger / Instagram Stream -->
-                                <div class="copypress-custom-bg-1">
+                                <!-- <div class="copypress-custom-bg-1">
                                     <div class="content_wrap sc_layouts_column_icons_position_left">
                                         <div class="trx_addons_columns_wrap">
                                             <div class="trx_addons_column-1_2 trx_addons_column_specific sc_layouts_column_icons_position_left">
@@ -361,7 +361,7 @@
                                         </div>
                                         <div class="empty_space height_9_2em"></div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- /Blogger / Instagram Stream -->
                                 <!-- Our Contacts -->
                                 <div class="copypress-custom-bg-2">

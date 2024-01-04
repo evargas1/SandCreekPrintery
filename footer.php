@@ -13,12 +13,10 @@
                                     <div class="footer-contact">
                                         <span class="sc_form_info_icon icon_phone"></span>
                                         <p>(123)456-7890</p>
+                                        <br>
+                                        <span><a href="mailto:info@sandcreekprintery.com">info@sandcreekprintery.com</a></span>
                                     </div>
-                                    <div class="footer-contact">
-                                        <!-- <span class="sc_form_info_icon icon_email"></span> -->
-                                        <a href="mailto:info@sandcreekprintery.com">info@sandcreekprintery.com</a>
-                                        
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <!-- /Button -->

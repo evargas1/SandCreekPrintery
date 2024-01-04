@@ -76,6 +76,18 @@ body {
 	color: #fff;
 }
 
+.sc_form_info{
+	background: linear-gradient(to right, #3376BD 0%, #45ADD6 100%);
+}
+.sc_layouts_item{
+	color: #fff;
+}
+.footer_custom_menu{
+	color: #fff;
+}
+.footer_custom {
+	background: black;
+}
 
 /* 2. Default tag's settings
 -------------------------------------------------------------- */
@@ -1121,6 +1133,7 @@ body:not(.expand_content):not(.body_style_fullwide):not(.body_style_fullscreen) 
 }
 .remove_margins .top_panel {
 	margin-bottom:0 !important;
+	background: black;
 }
 
 .top_panel.with_bg_image:before {
@@ -4598,13 +4611,7 @@ body.custom-background {
 
 /* adjsuted color and image for testomincals sections */
 .copypress-custom-bg-5-test{
-	background: 
-    /* top, transparent red */ 
-    linear-gradient(
-      rgba(8, 0, 0, 0.65), 
-      rgba(2, 0, 0, 0.65)
-    ),
-    /* bottom, image */
+	background: black
     url(/images/unboxing.jpg);
 
 

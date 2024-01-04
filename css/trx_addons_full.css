@@ -3440,7 +3440,7 @@ ul.trx_addons_list_parameters>li + li {
 }
 .sc_services_hover .sc_services_item_header, .sc_services_hover .sc_services_item_content {
     color: #fff;
-    background-color: #333;
+    background-color: #f6cb70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3459,7 +3459,7 @@ ul.trx_addons_list_parameters>li + li {
     top: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, rgba(233, 71, 165, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgb(255, 235, 196) 0%, rgb(252, 217, 162) 100%);
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -5968,7 +5968,7 @@ widget_categories_list .categories_list_item {
 }
 .sc_form .sc_form_info_data>a, .sc_form .sc_form_info_data>span {
     display: block;
-    color: #000;
+    color: #ffffff;
 }
 .sc_form .sc_form_info_data>a:hover {
     color: #efa758;
