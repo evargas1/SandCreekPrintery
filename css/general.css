@@ -109,6 +109,7 @@
     text-align: center;
     text-transform: uppercase;
     font-size: 1.5rem;
+    color: black;
 }
 a .card img{
     width: 6rem;
@@ -162,6 +163,7 @@ a .card img{
     text-align: center;
     text-transform: uppercase;
     font-size: 1.2rem;
+    color: black;
 }
 a .card-sqaure img{
     width: 8rem;
