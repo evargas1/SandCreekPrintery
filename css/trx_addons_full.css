@@ -5883,6 +5883,8 @@ widget_categories_list .categories_list_item {
 }
 .sc_form_form {
     position: relative;
+    background: #f3f3f3;
+
 }
 .sc_form_detailed .trx_addons_columns_wrap {
     margin-right: 0;
