@@ -30,12 +30,7 @@
                                                                     <span>our history</span>
                                                                 </h2>
                                                                 <div class="sc_action_item_description">
-                                                                    <span>Every company name should have meaning - what they do, what they stand for, and the values
-                                                                        to which they aspire. Margie grew up swimming, fishing, catching tadpoles, and running from 
-                                                                        snakes in the waterway that gave its name to Sand Creek Ranch. While thinking about what sets 
-                                                                        us apart, it dawned on me that Margie's father was the perfect examples of the values we wanted 
-                                                                        for our company.
-                                                                    </span>
+                                                                    <span><?php echo get_post_meta(18, 'about-us', true);?>
                                                                 </div>
                                                             </div>
                                                         </div>
