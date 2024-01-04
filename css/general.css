@@ -2925,43 +2925,7 @@ button:not(.search_submit):hover, .sc_item_button a:hover, .sc_form button:hover
     -webkit-transition-delay: .6s, .35s;
     transition-delay: .6s, .35s;
 }
-button:not(.search_submit):before, .sc_item_button a:not(.sc_button_simple):not(.sc_button_hover_slide_left):before, .sc_form button:before, .sc_price_link:before, .sc_action_item_link:before {
-    content: '';
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: -1;
-    transition: -webkit-transform .25s 0s;
-    transition: transform .25s 0s;
-    transition: transform .25s 0s, -webkit-transform .25s 0s;
-    background: #97bfa3;
-    border-radius: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0) scale(0);
-    -moz-transform: translate3d(-50%, -50%, 0) scale(0);
-    -ms-transform: translate3d(-50%, -50%, 0) scale(0);
-    transform: translate3d(-50%, -50%, 0) scale(0);
-}
-button:not(.search_submit):after, .sc_item_button a:not(.sc_button_simple):not(.sc_button_hover_slide_left):after, .sc_form button:after, .sc_price_link:after, .sc_action_item_link:after {
-    content: '';
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: -1;
-    transition: -webkit-transform .25s 0s;
-    transition: transform .25s 0s;
-    transition: transform .25s 0s, -webkit-transform .25s 0s;
-    background: 0 0;
-    border: 5px solid #4f3f92;
-    border-radius: 50%;
-    -webkit-transform: translate3d(-50%, -50%, 0) scale(0);
-    -moz-transform: translate3d(-50%, -50%, 0) scale(0);
-    -ms-transform: translate3d(-50%, -50%, 0) scale(0);
-    transform: translate3d(-50%, -50%, 0) scale(0);
-}
+
 .mejs-container .mejs-controls .mejs-button button:before {
     content: none;
 }
