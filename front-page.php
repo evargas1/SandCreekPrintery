@@ -10,8 +10,8 @@
                             <div class="post_content">
                                 <!-- Removed slider - adding static black wave -->
                                 <div class="banner-text">
-                                    <h2><?php echo get_post_meta(41, 'title', true);?></h2>
-                                    <p><?php echo get_post_meta(41, 'small_text_under_title', true);?></p>
+                                    <h2><?php echo get_post_meta(16, 'title', true);?></h2>
+                                    <p><?php echo get_post_meta(16, 'small_text_under_title', true);?></p>
                                     <h4>Dream ~ Collaborate ~ Print</h4>
                                 </div>
                                 <div class="homepage-banner">
@@ -34,28 +34,28 @@
                                                     <a href="">
                                                         <div class="card">
                                                             
-                                                            <h3><?php echo get_post_meta(41, 'what_we_do_text1', true);?></h3>
+                                                            <h3><?php echo get_post_meta(16, 'what_we_do_text1', true);?></h3>
                                                             
-                                                            <img src="<?php echo get_post_meta(41, 'what_we_do_img1', true);?>" alt="">
+                                                            <img src="<?php echo get_post_meta(16, 'what_we_do_img1', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3><?php echo get_post_meta(41, 'what_we_do_text2', true);?></h3>
+                                                            <h3><?php echo get_post_meta(16, 'what_we_do_text2', true);?></h3>
                                                             
-                                                            <img src="<?php echo get_post_meta(41, 'what_we_do_img2', true);?>" alt="">
+                                                            <img src="<?php echo get_post_meta(16, 'what_we_do_img2', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3><?php echo get_post_meta(41, 'what_we_do_text3', true);?></h3>
-                                                            <img src="<?php echo get_post_meta(41, 'what_we_do_img3', true);?>" alt="">
+                                                            <h3><?php echo get_post_meta(16, 'what_we_do_text3', true);?></h3>
+                                                            <img src="<?php echo get_post_meta(16, 'what_we_do_img3', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card">
-                                                            <h3><?php echo get_post_meta(41, 'what_we_do_text4', true);?></h3>
-                                                            <img src="<?php echo get_post_meta(41, 'what_we_do_img4', true);?>" alt="">
+                                                            <h3><?php echo get_post_meta(16, 'what_we_do_text4', true);?></h3>
+                                                            <img src="<?php echo get_post_meta(16, 'what_we_do_img4', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     
@@ -81,20 +81,20 @@
                                                 <div class="first-col-sqaure">
                                                     <a href="">
                                                         <div class="card-sqaure">
-                                                            <h3><?php echo get_post_meta(41, 'we_work_with_text1', true);?></h3>
-                                                            <img src="<?php echo get_post_meta(41, 'we_work_with_img1', true);?>" alt="">
+                                                            <h3><?php echo get_post_meta(16, 'we_work_with_text1', true);?></h3>
+                                                            <img src="<?php echo get_post_meta(16, 'we_work_with_img1', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card-sqaure">
-                                                            <h3><?php echo get_post_meta(41, 'we_work_with_text2', true);?></h3>
-                                                            <img src="<?php echo get_post_meta(41, 'we_work_with_img2', true);?>" alt="">
+                                                            <h3><?php echo get_post_meta(16, 'we_work_with_text2', true);?></h3>
+                                                            <img src="<?php echo get_post_meta(16, 'we_work_with_img2', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
                                                         <div class="card-sqaure">
-                                                            <h3><?php echo get_post_meta(41, 'we_work_with_text3', true);?></h3>
-                                                            <img src="<?php echo get_post_meta(41, 'we_work_with_img3', true);?>" alt="">
+                                                            <h3><?php echo get_post_meta(16, 'we_work_with_text3', true);?></h3>
+                                                            <img src="<?php echo get_post_meta(16, 'we_work_with_img3', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                     <a href="">
@@ -122,18 +122,18 @@
                                                 <div class="empty_space height_3em"></div>
                                                 <div class="sc_title sc_title_default">
                                                     <h6 class="sc_item_subtitle sc_title_subtitle sc_align_default sc_item_title_style_default">we handle everything</h6>
-                                                    <h2 class="sc_item_title sc_title_title sc_align_default sc_item_title_style_default"><?php echo get_post_meta(41, 'second_main_title', true);?></h2>
+                                                    <h2 class="sc_item_title sc_title_title sc_align_default sc_item_title_style_default"><?php echo get_post_meta(16, 'second_main_title', true);?></h2>
                                                 </div>
                                                 <div class="empty_space height_2em"></div>
-                                                <p><?php echo get_post_meta(41, 'paragraph', true);?></p>
+                                                <p><?php echo get_post_meta(16, 'paragraph', true);?></p>
                                                 <div class="empty_space height_2_9em"></div>
                                                 <div class="sc_item_button sc_button_wrap">
-                                                    <a href="<?php echo site_url('/contacts') ?>" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
+                                                    <a href="<?php echo get_permalink(10) ?>" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
                                                         <span class="sc_button_text">
                                                             <span class="sc_button_title">Request a Quote</span>
                                                         </span>
                                                     </a>
-                                                    <a href="<?php echo site_url('/contacts') ?>" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
+                                                    <a href="<?php echo get_permalink(10) ?>" class="sc_button sc_button_pink sc_button_size_normal sc_button_icon_left">
                                                         <span class="sc_button_text">
                                                             <span class="sc_button_title">Free Samples</span>
                                                         </span>
@@ -141,7 +141,7 @@
                                                 </div>
                                             </div><div class="trx_addons_column-1_2 trx_addons_column_specific sc_layouts_column_icons_position_left">
                                             <div class="empty_space height_4em"></div>
-                                            <img id="concept-to-print-image" src="<?php echo get_post_meta(41, 'second_main_title_img', true);?>" />
+                                            <img id="concept-to-print-image" src="<?php echo get_post_meta(16, 'second_main_title_img', true);?>" />
                                         </div>
                                         </div>
                                         
@@ -159,13 +159,13 @@
                                                     <div class="sc_services_item_content copypress-service-1">
                                                         <div class="sc_services_item_content_inner">
                                                             <h3 class="sc_services_item_title">
-                                                                <a href="<?php echo site_url('/contacts') ?>"><?php echo get_post_meta(41, 'our_printers1', true);?></a>
+                                                                <a href="<?php echo get_permalink(10) ?>"><?php echo get_post_meta(16, 'our_printers1', true);?></a>
                                                             </h3>
                                                             <div class="sc_services_item_text">
-                                                                <p><?php echo get_post_meta(41, 'paragraph_for_printers1', true);?></p>
+                                                                <p><?php echo get_post_meta(16, 'paragraph_for_printers1', true);?></p>
                                                             </div>
                                                             <div class="sc_services_item_link sc_item_button">
-                                                                <a class="sc_button_white sc_button_hover_slide_left" href="<?php echo site_url('/contacts') ?>">More info</a>
+                                                                <a class="sc_button_white sc_button_hover_slide_left" href="<?php echo get_permalink(10) ?>">More info</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -175,13 +175,13 @@
                                                 <div class="sc_services_item_content copypress-service-2">
                                                     <div class="sc_services_item_content_inner">
                                                         <h3 class="sc_services_item_title">
-                                                            <a href="<?php echo site_url('/contacts') ?>"><?php echo get_post_meta(41, 'our_printers2', true);?></a>
+                                                            <a href="<?php echo get_permalink(10) ?>"><?php echo get_post_meta(16, 'our_printers2', true);?></a>
                                                         </h3>
                                                         <div class="sc_services_item_text">
-                                                            <p><?php echo get_post_meta(41, 'paragraph_for_printers2', true);?></p>
+                                                            <p><?php echo get_post_meta(16, 'paragraph_for_printers2', true);?></p>
                                                         </div>
                                                         <div class="sc_services_item_link sc_item_button">
-                                                            <a class="sc_button_white sc_button_hover_slide_left" href="<?php echo site_url('/contacts') ?>">More info</a>
+                                                            <a class="sc_button_white sc_button_hover_slide_left" href="<?php echo get_permalink(10) ?>">More info</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -191,13 +191,13 @@
                                                 <div class="sc_services_item_content copypress-service-1">
                                                     <div class="sc_services_item_content_inner">
                                                         <h3 class="sc_services_item_title">
-                                                            <a href="<?php echo site_url('/contacts') ?>"><?php echo get_post_meta(41, 'our_printers3', true);?></a>
+                                                            <a href="<?php echo get_permalink(10) ?>"><?php echo get_post_meta(16, 'our_printers3', true);?></a>
                                                         </h3>
                                                         <div class="sc_services_item_text">
-                                                            <p><?php echo get_post_meta(41, 'paragraph_for_printers3', true);?></p>
+                                                            <p><?php echo get_post_meta(16, 'paragraph_for_printers3', true);?></p>
                                                         </div>
                                                         <div class="sc_services_item_link sc_item_button">
-                                                            <a class="sc_button_white sc_button_hover_slide_left" href="<?php echo site_url('/contacts') ?>">More info</a>
+                                                            <a class="sc_button_white sc_button_hover_slide_left" href="<?php echo get_permalink(10) ?>">More info</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -221,13 +221,13 @@
                                                         <div class="swiper-slide">
                                                             <div class="sc_testimonials_item">
                                                                 <div class="sc_testimonials_item_content">
-                                                                    <p><?php echo get_post_meta(41, 'paragraph_for_testimonals1', true);?></p>
+                                                                    <p><?php echo get_post_meta(16, 'paragraph_for_testimonals1', true);?></p>
                                                                 </div>
                                                                 <div class="sc_testimonials_item_author">
                                                                    
                                                                     <div class="sc_testimonials_item_author_data">
-                                                                        <h4 class="sc_testimonials_item_author_title"><?php echo get_post_meta(41, 'first_and_last_name1', true);?></h4>
-                                                                        <div class="sc_testimonials_item_author_subtitle"><?php echo get_post_meta(41, 'company1', true);?></div>
+                                                                        <h4 class="sc_testimonials_item_author_title"><?php echo get_post_meta(16, 'first_and_last_name1', true);?></h4>
+                                                                        <div class="sc_testimonials_item_author_subtitle"><?php echo get_post_meta(16, 'company1', true);?></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -235,13 +235,13 @@
                                                         <div class="swiper-slide">
                                                             <div class="sc_testimonials_item">
                                                                 <div class="sc_testimonials_item_content">
-                                                                    <p><?php echo get_post_meta(41, 'paragraph_for_testimonals2', true);?></p>
+                                                                    <p><?php echo get_post_meta(16, 'paragraph_for_testimonals2', true);?></p>
                                                                 </div>
                                                                 <div class="sc_testimonials_item_author">
                                                                     
                                                                     <div class="sc_testimonials_item_author_data">
-                                                                        <h4 class="sc_testimonials_item_author_title"><?php echo get_post_meta(41, 'first_and_last_name2', true);?></h4>
-                                                                        <div class="sc_testimonials_item_author_subtitle"><?php echo get_post_meta(41, 'company2', true);?></div>
+                                                                        <h4 class="sc_testimonials_item_author_title"><?php echo get_post_meta(16, 'first_and_last_name2', true);?></h4>
+                                                                        <div class="sc_testimonials_item_author_subtitle"><?php echo get_post_meta(16, 'company2', true);?></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -249,13 +249,13 @@
                                                         <div class="swiper-slide">
                                                             <div class="sc_testimonials_item">
                                                                 <div class="sc_testimonials_item_content">
-                                                                    <p><?php echo get_post_meta(41, 'paragraph_for_testimonals3', true);?></p>
+                                                                    <p><?php echo get_post_meta(16, 'paragraph_for_testimonals3', true);?></p>
                                                                 </div>
                                                                 <div class="sc_testimonials_item_author">
                                                                     
                                                                     <div class="sc_testimonials_item_author_data">
-                                                                        <h4 class="sc_testimonials_item_author_title"><?php echo get_post_meta(41, 'first_and_last_name3', true);?></h4>
-                                                                        <div class="sc_testimonials_item_author_subtitle"><?php echo get_post_meta(41, 'company3', true);?></div>
+                                                                        <h4 class="sc_testimonials_item_author_title"><?php echo get_post_meta(16, 'first_and_last_name3', true);?></h4>
+                                                                        <div class="sc_testimonials_item_author_subtitle"><?php echo get_post_meta(16, 'company3', true);?></div>
                                                                     </div>
                                                                 </div>
                                                             </div>

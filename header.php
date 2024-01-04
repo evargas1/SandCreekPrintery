@@ -45,7 +45,7 @@
                                         <!-- /Menu item : Home -->
                                         <!-- Menu item : Gallery -->
                                         <li class="menu-item current-menu-ancestor current-menu-parent">
-                                            <a href="<?php echo site_url('/gallery') ?>">
+                                            <a href="<?php echo get_permalink(12) ?>">
                                                 <span>Gallery</span>
                                             </a>
                                         </li>
@@ -81,14 +81,14 @@
                                         <!-- /Menu item : Services -->
                                         <!-- Menu item : About -->
                                         <li class="menu-item">
-                                            <a href="<?php echo site_url('/about') ?>">
+                                            <a href="<?php echo get_permalink(18) ?>">
                                                 <span>About</span>
                                             </a>
                                         </li>
                                         <!-- /Menu item : About -->
                                         <!-- Menu item : Contacts -->
                                         <li class="menu-item">
-                                            <a href="<?php echo site_url('/contacts') ?>">
+                                            <a href="<?php echo get_permalink(10) ?>">
                                                 <span>Contacts</span>
                                             </a>
                                         </li>
@@ -134,7 +134,7 @@
                                 <!-- /Menu item : Home -->
                                 <!-- Menu item : Gallery -->
                                 <li class="menu-item current-menu-ancestor current-menu-parent">
-                                        <a href="<?php echo site_url('/gallery') ?>">
+                                        <a href="<?php echo get_permalink(12)  ?>">
                                             <span>Gallery</span>
                                         </a>
                                         </li>
@@ -171,14 +171,14 @@
                                 <!-- /Menu item : Services -->
                                 <!-- Menu item : About -->
                                 <li class="menu-item">
-                                    <a href="about-style-2.html">
+                                    <a href="<?php echo get_permalink(18) ?>">
                                         <span>About</span>
                                     </a>
                                 </li>
                                 <!-- /Menu item : About -->
                                 <!-- Menu item : Contacts -->
                                 <li class="menu-item">
-                                    <a href="contacts.html">
+                                    <a href="<?php echo get_permalink(10) ?>">
                                         <span>Contacts</span>
                                     </a>
                                 </li>
