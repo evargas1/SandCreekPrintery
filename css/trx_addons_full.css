@@ -4081,6 +4081,7 @@ ul.trx_addons_list_parameters>li + li {
 }
 .sc_testimonials_item_content p {
     margin: 0;
+    color: white;
 }
 .sc_testimonials_item_content p+p {
     margin-top: 1em;
