@@ -99,8 +99,8 @@
                                                     </a>
                                                     <a href="">
                                                         <div class="card-sqaure">
-                                                            <h3><?php echo get_post_meta(41, 'we_work_with_text4', true);?></h3>
-                                                            <img src="<?php echo get_post_meta(41, 'we_work_with_img4', true);?>" alt="">
+                                                            <h3><?php echo get_post_meta(16, 'we_work_with_text4', true);?></h3>
+                                                            <img src="<?php echo get_post_meta(16, 'we_work_with_img4', true);?>" alt="">
                                                         </div>
                                                     </a>
                                                 </div>
@@ -403,7 +403,7 @@
                                                 </div><div class="trx_addons_column-1_2">
                                                 <form class="sc_form_form " >
                                                         <h2 class="sc_item_title sc_form_title sc_align_default sc_item_title_style_default">Request Quote</h2>
-                                                        <?php echo do_shortcode('[wpforms id="106"]');?>
+                                                        <?php echo do_shortcode('[wpforms id="29"]');?>
                                                 </form>
                                             </div>
                                             </div>
